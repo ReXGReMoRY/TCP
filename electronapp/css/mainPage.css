@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  background-color: #141216;
+}
+
+#Welcome_to_TCL {
+  color: crimson;
+  font-weight: bold;
+  font-family: Maple Mono;
+}
+
+.login_input {
+  border-radius: 20px;
+  border-color: grey;
+  text-decoration: none;
+  transition: 120ms;
+  font-size: 15px;
+}
+
+.login_input:hover {
+  text-decoration: none;
+  border-color: crimson;
+  border-width: 3px;
+}
+
+.login_input:focus {
+  outline: none;
+  text-decoration: none;
+  border-color: crimson;
+  border-width: 3px;
+}
+
+#button_login {
+  cursor: pointer;
+
+}
+
+.status_error {
+  color: red;
+  font-size: 15;
+  font-family: Maple Mono;
+}
+
+.status_login {
+  color: green;
+  font-size: 15;
+  font-family: Maple Mono;
+}

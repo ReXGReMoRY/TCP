@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <script defer src="/home/naim/dev/electronapp/js/mainDogPage.js"></script>
+  <link rel="stylesheet" href="/home/naim/dev/electronapp/css/mainDogPage.css">
+</head>
+
+<body id="mainDogPage">
+  <div id="addDog">
+    <button id="addDogButton">
+      Agregar un perro
+      <br>
+      +
+    </button>
+  </div>
+  <section class="dogMainPage">
+    <div class="step" id="step-1">
+      <label class="atributeNames">Nombre del Perro</label>
+      <br>
+      <input class="dogMainPageInputAttributes" id="dogName"></input>
+      <br><br>
+      <button class="dogMainButton" id="next-1">Siguiente</button>
+      <br>
+    </div>
+    <div class="step" id="step-2">
+      <label class="atributeNames">Raza del Perro</label>
+      <br>
+      <input class="dogMainPageInputAttributes" id="dogBreed"></input>
+      <br><br>
+      <button class="dogMainButton" id="next-2">Siguiente</button>
+      <br>
+    </div>
+    <div class="step" id="step-3">
+      <label class="atributeNames">Edad del perro</label>
+      <br>
+      <input class="dogMainPageInputAttributes" id="dogAge"></input>
+      <br><br>
+      <button class="dogMainButton" id="next-3">Siguiente</button>
+      <br>
+    </div>
+  </section>
+</body>
+
+</html>

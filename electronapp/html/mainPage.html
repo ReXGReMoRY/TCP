@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+  <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+  <title>TCL</title>
+  <script defer src="/home/naim/dev/electronapp/js/renderer.js"></script>
+  <link rel="stylesheet" href="/home/naim/dev/electronapp/css/mainPage.css">
+</head>
+
+<body>
+  <h1 id="Welcome_to_TCL">Bienvenido a TCL</h1>
+  <br>
+  <form id="login_form">
+    <input id="username_session" class="login_input" placeholder="Usuario"></input>
+    <br><br>
+    <input id="password_session" class="login_input" placeholder="Clave personal" type="password"></input>
+    <br><br>
+    <button type="submit" id="button_login" class="login_input">Log in</button>
+    <br><br>
+    <label id="succesful_login"></label>
+  </form>
+</body>
+
+</html>

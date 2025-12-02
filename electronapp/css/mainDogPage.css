@@ -1,0 +1,90 @@
+* {
+  font-family: Maple Mono;
+  font-weight: bold;
+  font: crimson;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#addDogButton {
+  height: 100px;
+  width: 200px;
+  border-radius: 20px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  background: linear-gradient(to right, #403b4a, #bbbbb4);
+  transition: 0.2s;
+}
+
+.dogMainPage {
+  display: none;
+}
+
+#addDogButton:hover {
+  outline: none;
+  text-decoration: none;
+  border-color: white;
+  border-width: 3px;
+}
+
+body {
+  background-color: #141216;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Maple Mono;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#dogMainPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.atributeNames {
+  color: crimson;
+}
+
+.dogMainPageInputAttributes {
+  border-radius: 10px;
+  outline: none;
+  text-decoration: none;
+  transition: 120ms;
+}
+
+.dogMainPageInputAttributes:hover {
+  border-color: crimson;
+  border-radius: 10px;
+  border-width: 3px;
+}
+
+.dogMainPageInputAttributes:focus {
+  border-width: 3px;
+  border-color: crimson;
+  text-decoration: none;
+  outline: none;
+}
+
+.dogMainButton {
+  border-radius: 10px;
+  transition: 120ms;
+  outline: none;
+  cursor: pointer;
+}
+
+.dogMainButton:hover {
+  border-width: 3px;
+  border-color: crimson;
+}
